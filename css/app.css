@@ -1,0 +1,239 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#d53369), to(#daae51));
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  margin: 0;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15vh 15vw;
+}
+
+.v--social-icons img {
+  width: 35px;
+}
+
+.v--form-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.v--form-section h1 {
+  margin: 0.7em;
+  padding: 0;
+  color: #e40668;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.v--option-text {
+  margin: 1.4em;
+  color: #a6adaa;
+  font-size: 0.8em;
+}
+
+.v--sign-up-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #e40668;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.v--sign-up-section h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.7em;
+}
+
+.v--sign-up-section p {
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  margin-bottom: 2.1em;
+}
+
+.input1 input {
+  margin-bottom: 1.3rem;
+  padding: 0.8rem 3rem;
+  line-height: 1.3rem;
+  color: #a6adaa;
+  background: #f2f8f7 url("../img/mail.svg") no-repeat left 10px center;
+  background-size: 1.5rem 1.5rem;
+  border: none;
+}
+
+.input1 input::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.input1 input:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input1 input::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input1 input::placeholder {
+  font-size: 1em;
+}
+
+.input2 input {
+  margin-bottom: 1.3rem;
+  padding: 0.8rem 3rem;
+  line-height: 1.3rem;
+  color: #a6adaa;
+  background: #f2f8f7 url("../img/lock2.svg") no-repeat left 10px center;
+  background-size: 1.3rem 1.5rem;
+  border: none;
+}
+
+.input2 input::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.input2 input:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input2 input::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input2 input::placeholder {
+  font-size: 1em;
+}
+
+.v--forgot-pass {
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.v--border {
+  text-align: center;
+  margin-left: 3.5rem;
+  margin-top: 9px;
+  background: #a6adaa;
+  height: 1px;
+  width: 150px;
+}
+
+.v--btn {
+  display: block;
+  width: 155px;
+  height: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  border: #a6adaa solid 1px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.sign-in {
+  background-color: #e40668;
+  border: none;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  line-height: 2.5em;
+  letter-spacing: 0.3em;
+  margin-right: 3.3rem;
+  margin-left: 3.3rem;
+}
+
+.sign-in:hover {
+  background-color: #ffffff;
+  color: #e40668;
+  border: #e40668 1px solid;
+}
+
+.sign-up {
+  background-color: #e40668;
+  border: none;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  line-height: 2.5em;
+  letter-spacing: 0.3em;
+  margin-right: 3.3rem;
+  margin-left: 3.3rem;
+  border: #fff 1px solid;
+}
+
+.sign-up:hover {
+  background-color: #ffffff;
+  color: #e40668;
+  border: #e40668 1px solid;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+  }
+  .v--sign-up-section {
+    display: none;
+  }
+  .v--form-section {
+    height: 100vh;
+    width: 100%;
+  }
+  a.hide-desktop {
+    color: #000;
+    display: block;
+    margin-bottom: 0.7em;
+  }
+}
+/*# sourceMappingURL=app.css.map */
