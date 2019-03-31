@@ -2,4 +2,4 @@
 
 ## Demo Link
 
-https://code.nigeljaure.co.zw/flexbox-form
+https://creativelab.co.zw/projects/flex-form/
